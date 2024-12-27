@@ -9,7 +9,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         'heroImage': 'url("/BgHome.png")'
-      }
+      },
+      screens: {
+        '@desktop': '1024px',
+        '@screen1200': '1200px',
+      },
     },
   },
   plugins: [],
